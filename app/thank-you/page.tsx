@@ -1,24 +1,26 @@
-import Link from "next/link";
-
-export const metadata = { title: "Thanks — PromptVault Pro" };
+export const metadata = { title: "Thanks — PromptVault Pro Pack" };
 
 export default function ThankYou() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white flex items-center justify-center">
       <div className="max-w-xl mx-auto px-6 text-center">
-        <div className="text-7xl mb-6">📬</div>
-        <h1 className="text-4xl md:text-5xl font-black mb-6">Order received.</h1>
-        <p className="text-xl text-slate-300 mb-8">
-          Send £25 via PayPal to{" "}
-          <span className="font-mono text-amber-300">alex.promptvault@gmail.com</span>,
-          then reply to the email with a screenshot or transaction ID.
+        <div className="text-7xl mb-6">🎉</div>
+        <h1 className="text-4xl md:text-5xl font-black mb-4">You&apos;re in.</h1>
+        <p className="text-xl text-slate-300 mb-6">
+          Your PromptVault Pro Pack is ready.
         </p>
-        <p className="text-slate-400 mb-12">
-          I'll send the Pro Pack within 1 hour of the payment clearing. Most orders ship in under 10 minutes.
+        <a
+          href="https://zo.pub/blackbox/promptvault-pro"
+          className="inline-block bg-amber-500 hover:bg-amber-400 text-black font-bold text-lg px-8 py-4 rounded-xl transition transform hover:scale-105 mb-8"
+        >
+          ↓ Download Pro Pack (70 Prompts)
+        </a>
+        <p className="text-slate-400 text-sm mb-8">
+          You&apos;ll also receive a copy by email within a few minutes.
         </p>
-        <Link href="/" className="inline-block bg-slate-800 hover:bg-slate-700 text-white font-semibold px-6 py-3 rounded-lg transition">
-          ← Back to PromptVault
-        </Link>
+        <p className="text-slate-500 text-xs">
+          Link expires in 72 hours. Save it now.
+        </p>
       </div>
     </main>
   );

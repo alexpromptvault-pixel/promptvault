@@ -1,0 +1,25 @@
+import Link from "next/link";
+
+export const metadata = { title: "Thanks — PromptVault" };
+
+export default function ThankYou() {
+  return (
+    <main className="min-h-screen bg-zinc-950 text-zinc-100 flex items-center justify-center p-4">
+      <div className="max-w-lg text-center space-y-6">
+        <div className="text-6xl">🎉</div>
+        <h1 className="text-3xl font-bold">You're In.</h1>
+        <p className="text-zinc-400 text-lg leading-relaxed">
+          Your PromptVault Pro Pack is ready. Check your inbox at the email you used for payment — the 70 prompts are on their way.
+        </p>
+        <p className="text-zinc-500 text-sm">
+          Didn't get the email? DM <a href="https://x.com/alexfisher91625" className="text-amber-400 hover:underline">@alexfisher91625</a> and I'll send it manually.
+        </p>
+        <div className="pt-4">
+          <Link href="/" className="text-zinc-400 hover:text-zinc-200 underline underline-offset-4">
+            ← Back to PromptVault
+          </Link>
+        </div>
+      </div>
+    </main>
+  );
+}

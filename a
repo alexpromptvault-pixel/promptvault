@@ -1,0 +1,8 @@
+import Link from "next/link";
+import { redirect } from "next/navigation";
+
+export const metadata = { title: "Thanks — PromptVault" };
+
+export default function ThankYou() {
+  redirect("/thank-you");
+}
