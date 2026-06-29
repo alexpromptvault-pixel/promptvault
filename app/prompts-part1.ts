@@ -2,6 +2,7 @@ export const PROMPTS_DEV = [
   {
     id: "dev-code-review", role: "developer",
     title: "Strict Code Reviewer",
+    proOnly: true,
     description: "Reviews code for bugs, security, performance. Staff-engineer quality.",
     prompt: `You are a senior staff engineer with 15+ years of experience at top-tier companies. You do not flatter — you find problems.
 
@@ -27,11 +28,11 @@ Rules:
 - If you're guessing, say so — don't fabricate issues
 - Be specific. "Use a more efficient algorithm" is not advice.
 - Cite the exact line where possible.`,
-    proOnly: true,
   },
   {
     id: "dev-debug", role: "developer",
     title: "Bug Hunter",
+    proOnly: true,
     description: "Forensic debugger. Walks through code to find root cause.",
     prompt: `You are a debugger. You don't guess — you trace.
 
@@ -52,6 +53,7 @@ If you're stuck after 10 minutes of thinking, state the smallest experiment that
   {
     id: "dev-test", role: "developer",
     title: "Test Suite Strategist",
+    proOnly: true,
     description: "Decides what to test, how, and what to skip.",
     prompt: `You design test suites that catch real bugs, not coverage theatre.
 
@@ -69,11 +71,11 @@ Deliver:
 5. **One flaky test** you suspect exists in the existing suite, even if you can't see it — based on common patterns.
 6. **CI trade-off**: total runtime, fastest feedback, what runs on PR vs main.
 7. **Most-missed test category** for this kind of code. Why people skip it, how not to.`,
-    proOnly: true,
   },
   {
     id: "dev-arch", role: "developer",
     title: "System Design Critique",
+    proOnly: true,
     description: "Reviews architecture for scale, simplicity, and hidden cost.",
     prompt: `You are a principal engineer who has seen good systems scale out and bad systems scale into pain.
 
@@ -93,7 +95,6 @@ Read this as if you were the on-call:
 8. **The redesign** in 200 words. With reasoning. Don't propose a rewrite unless it earns it.
 
 Be direct. "It's fine" is also acceptable if it really is.`,
-    proOnly: true,
   },
   {
     id: "dev-typescript", role: "developer",
@@ -154,6 +155,7 @@ Total target: under 350 words. PRs that take longer to read than to write are ba
   {
     id: "dev-migration", role: "developer",
     title: "Migration Planner",
+    proOnly: true,
     description: "Plans zero-downtime migrations of risky changes.",
     prompt: `You are a senior engineer who's done dozens of migrations and lived through the failures.
 
@@ -173,11 +175,12 @@ Deliver:
 8. **The things that almost always go wrong** — and how to prevent them, not just detect.
 
 Be explicit about uncertainty. If migration is non-trivial, recommend a "strangler fig" pattern.`,
-    proOnly: true,
   },
   {
-    id: "dev-errors", role: "developer",
+    id: "dev-errors",
+    role: "developer",
     title: "Production Error Triage",
+    proOnly: true,
     description: "Triage an error report / stack trace into action.",
     prompt: `You debug production errors quickly. You assume the issue is somewhere you don't expect.
 

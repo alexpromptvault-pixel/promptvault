@@ -5,9 +5,12 @@ import { PROMPTS_WRITER } from "./prompts-part4";
 
 export type Role = "developer" | "marketer" | "founder" | "writer";
 
-export const PROMPTS = [
+const ALL = [
   ...PROMPTS_DEV,
   ...PROMPTS_MARKETER,
   ...PROMPTS_FOUNDER,
   ...PROMPTS_WRITER,
 ];
+
+export const FREE_PROMPTS = ALL.filter(p => !("proOnly" in p));
+export const PROMPTS = ALL;

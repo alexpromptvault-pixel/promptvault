@@ -1,7 +1,7 @@
 // Updated checkout link – removed legacy &body param
 import Link from "next/link";
 
-export const metadata = { title: "PromptVault Pro — 50 Battle-Tested Workflows" };
+export const metadata = { title: "PromptVault Pro — 77 Battle-Tested Workflows" };
 
 export default function Upgrade() {
   return (
@@ -16,7 +16,7 @@ export default function Upgrade() {
         </div>
 
         <h1 className="mt-6 text-5xl md:text-6xl font-black leading-tight tracking-tight">
-          The 20 prompts
+          The 40+ pro prompts
           <br />
           <span className="bg-gradient-to-r from-amber-300 to-orange-400 bg-clip-text text-transparent">
             that close deals.
@@ -48,7 +48,7 @@ export default function Upgrade() {
         <section className="mt-16 space-y-8">
           <h2 className="text-2xl font-bold">What you get</h2>
           {[
-            ["20 prompts, real-money tested", "Each one used on a paying client project. No filler, no AI-fluff, no 'describe your morning routine' filler."],
+            ["40+ pro prompts, real-money tested", "Each one used on a paying client project. No filler, no AI-fluff, no 'describe your morning routine' filler."],
             ["Pro-only workflows", "Sales-call extractor, contract-drafting prompt, invoice-chasing loop, compliance reviewer — workflows the free tier doesn't cover."],
             ["Copy-paste blocks", "Pre-filled context blocks so you don't re-write the system prompt each time. Drop in, ship."],
             ["Real receipts", "Every prompt includes which client it was used on, what they bought, and how long it took."],

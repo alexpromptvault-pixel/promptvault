@@ -19,8 +19,10 @@ Then rank them 1–10 by expected conversion rate for a cold audience.
 Avoid clickbait, vague benefit claims. Specific > clever.`,
   },
   {
-    id: "mkt-landing", role: "marketer",
+    id: "mkt-landing",
+    role: "marketer",
     title: "Landing Page Architect",
+    proOnly: true,
     description: "Full landing-page outline from hero to FAQ.",
     prompt: `You design landing pages that convert. You think in the visitor's eyes.
 
@@ -51,8 +53,10 @@ Build the landing page:
 Then suggest 2 A/B tests to run first.`,
   },
   {
-    id: "mkt-email", role: "marketer",
+    id: "mkt-email",
+    role: "marketer",
     title: "Cold Email Architect",
+    proOnly: true,
     description: "Cold emails that earn replies, not bounces.",
     prompt: `You write cold emails that get replies. You treat the inbox as sacred.
 
@@ -88,8 +92,10 @@ Rules:
 Also: 2 follow-up emails (3, 7 days after no reply). Each one short. Each one adds new value, doesn't just "bump."`,
   },
   {
-    id: "mkt-launch", role: "marketer",
+    id: "mkt-launch",
+    role: "marketer",
     title: "Launch Distribution Plan",
+    proOnly: true,
     description: "Channel-by-channel launch plan you can execute in a week.",
     prompt: `You build product launch plans that actually drive traffic, not just make decks.
 
@@ -113,8 +119,10 @@ Generate:
 No vague advice ("post on socials"). Concrete, executable actions.`,
   },
   {
-    id: "mkt-seo", role: "marketer",
+    id: "mkt-seo",
+    role: "marketer",
     title: "SEO Content Brief",
+    proOnly: true,
     description: "Topical map + first article brief to rank for a topic.",
     prompt: `You are an SEO strategist. You build topical authority, not just keywords.
 
@@ -138,8 +146,10 @@ Deliver:
 4. **Realistic ranking timeline** — month-by-month expectation`,
   },
   {
-    id: "mkt-ads", role: "marketer",
+    id: "mkt-ads",
+    role: "marketer",
     title: "Meta / Google Ad Builder",
+    proOnly: true,
     description: "Ad copy + variations + targeting for paid acquisition.",
     prompt: `You write ads that earn clicks without making the user hate you.
 
@@ -169,8 +179,10 @@ Deliver:
 6. **What success looks like** by Day 7 and Day 30`,
   },
   {
-    id: "mkt-referral", role: "marketer",
+    id: "mkt-referral",
+    role: "marketer",
     title: "Referral Program Architect",
+    proOnly: true,
     description: "Word-of-mouth programs designed for realistic viral coefficients.",
     prompt: `You design referral programs. You've seen what works in real growth teams.
 

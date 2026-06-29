@@ -1,6 +1,7 @@
 export const PROMPTS_WRITER = [
   {
-    id: "write-blog", role: "writer",
+    id: "write-blog",
+    role: "writer",
     title: "Blog Post Outline",
     description: "Search-intent + reader-respecting blog post outline.",
     prompt: `You are a content strategist who writes for both humans and Google.
@@ -23,7 +24,8 @@ Output:
 Write the intro (200 words) once the structure is set.`,
   },
   {
-    id: "write-newsletter", role: "writer",
+    id: "write-newsletter",
+    role: "writer",
     title: "Newsletter Builder",
     description: "Open-worthy newsletters that earn replies.",
     prompt: `You write newsletters people open. You optimise for "did I read it fully" not "did I get clicks."
@@ -47,7 +49,8 @@ Tone: human. No corporate. No faux-personalisation.
 Then 3 follow-up issues for the next 3 days, themed as a sequence (not repeated content).`,
   },
   {
-    id: "write-x", role: "writer",
+    id: "write-x",
+    role: "writer",
     title: "X / Twitter Thread Builder",
     description: "Threads that get read fully, not just RT'd.",
     prompt: `You write X threads that earn followers, not just likes.
@@ -75,8 +78,10 @@ Rules:
 Plus 3 follow-up single tweets (replies to the thread) to extend reach.`,
   },
   {
-    id: "write-tiktok", role: "writer",
+    id: "write-tiktok",
+    role: "writer",
     title: "Short-Form Video Script",
+    proOnly: true,
     description: "TikTok/Reels/Shorts scripts that hold attention.",
     prompt: `You write short-video scripts that hold attention past the 3-second mark.
 
@@ -99,8 +104,10 @@ Timing target: 30–60 sec.
 Plus 3 alternatives of the hook, ranked for likelihood to hold attention.`,
   },
   {
-    id: "write-doc", role: "writer",
+    id: "write-doc",
+    role: "writer",
     title: "Documentation Writer",
+    proOnly: true,
     description: "Technical docs that humans actually understand.",
     prompt: `You write docs that engineers enjoy reading. They don't skim. They get unblocked.
 
@@ -123,8 +130,10 @@ Tone: friendly, terse. Avoid "we" when "you" works. Avoid filler ("Notice how...
 If improving existing docs: keep what works, rewrite what doesn't. Show before/after for the "before" line that's currently unclear.`,
   },
   {
-    id: "write-story", role: "writer",
+    id: "write-story",
+    role: "writer",
     title: "Founder Story / About Page",
+    proOnly: true,
     description: "About pages that build trust without humble-bragging.",
     prompt: `You write the "About / Story" copy for company pages. It actually makes people feel something.
 
@@ -149,8 +158,10 @@ Tone: honest, slightly informal. No "passionate team" or "world-class solutions.
 Also: 1 paragraph of micro-copy for a Twitter bio (max 160 chars) and 1 for the company byline.`,
   },
   {
-    id: "write-email-subj", role: "writer",
+    id: "write-email-subj",
+    role: "writer",
     title: "Email Subject Line Lab",
+    proOnly: true,
     description: "20 subject lines ranked by intent.",
     prompt: `You write email subject lines. Open rates are your only metric.
 

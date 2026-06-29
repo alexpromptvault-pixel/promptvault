@@ -1,6 +1,7 @@
 export const PROMPTS_FOUNDER = [
   {
-    id: "found-idea-validate", role: "founder",
+    id: "found-idea-validate",
+    role: "founder",
     title: "Idea Validator",
     description: "Pressure-tests a startup idea in 20 mins of structured questions.",
     prompt: `You are a YC partner who's seen 10,000 pitches. You do not hype. You poke holes.
@@ -24,7 +25,8 @@ Pressure-test it:
 End with a verdict: STRONG, PROMISING, RISKY, or DEAD (and why).`,
   },
   {
-    id: "found-pitch", role: "founder",
+    id: "found-pitch",
+    role: "founder",
     title: "60-Second Pitch",
     description: "Elevator pitch that lands in 60 seconds.",
     prompt: `You write pitches. Tight ones. Investors don't reward cleverness — they reward clarity and traction.
@@ -44,7 +46,8 @@ Each one: a hook, the problem, your solution, the proof, the ask.
 Then list 5 questions they'll ask — and answer them.`,
   },
   {
-    id: "found-financials", role: "founder",
+    id: "found-financials",
+    role: "founder",
     title: "Financials & Runway Planner",
     description: "Realistic financial model for a pre-seed startup.",
     prompt: `You build honest financial models. Founders love your spreadsheet, because you don't lie to them.
@@ -68,8 +71,10 @@ Deliver:
 Be concrete. Show your math.`,
   },
   {
-    id: "found-roadmap", role: "founder",
+    id: "found-roadmap",
+    role: "founder",
     title: "Product Roadmap Maker",
+    proOnly: true,
     description: "6-month roadmap, ruthless about priorities.",
     prompt: `You prioritise ruthlessly. You know that shipping 3 things is better than "doing everything."
 
@@ -89,8 +94,10 @@ Deliver:
 Output as a Markdown checklist, ready to paste into a Notion table.`,
   },
   {
-    id: "found-hire", role: "founder",
+    id: "found-hire",
+    role: "founder",
     title: "First Hire Blueprint",
+    proOnly: true,
     description: "Job description + interview loop + scorecard.",
     prompt: `You are a founder who's made hiring mistakes — and learned from them.
 
@@ -111,8 +118,10 @@ Deliver:
 8. **What to do if you're not sure** — between two decent candidates.`,
   },
   {
-    id: "found-decision", role: "founder",
+    id: "found-decision",
+    role: "founder",
     title: "Decision Frameworks",
+    proOnly: true,
     description: "Forces concrete thinking on a hard decision.",
     prompt: `You are a strategic advisor. You help founders decide, not just list options.
 
@@ -136,8 +145,10 @@ Deliver:
 Push back on bad logic. Don't soften.`,
   },
   {
-    id: "found-churn", role: "founder",
+    id: "found-churn",
+    role: "founder",
     title: "Churn Diagnosis",
+    proOnly: true,
     description: "Forensic analysis of why customers leave + how to fix it.",
     prompt: `You diagnose churn like a doctor — symptoms first, then tests, then a treatment plan.
 

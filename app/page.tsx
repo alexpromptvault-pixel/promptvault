@@ -1,6 +1,6 @@
 "use client";
 import { useState, useMemo } from "react";
-import { PROMPTS } from "./prompts-index";
+import { FREE_PROMPTS as PROMPTS } from "./prompts-index";
 import type { Role } from "./prompts-index";
 
 const ROLE_META: Record<Role, { label: string; emoji: string; color: string }> = {
@@ -61,7 +61,7 @@ export default function Home() {
             Tested prompts for <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400">real work</span>.
           </h2>
           <p className="mt-3 text-zinc-400 max-w-2xl">
-            Each prompt is production-tested and copy-paste ready. Browse by role, click any prompt, paste into ChatGPT or Claude. Free preview below — the full 100+ library is on Gumroad for £19.
+            Each prompt is production-tested and copy-paste ready. Browse by role, click any prompt, paste into ChatGPT or Claude. Free preview below — the full 77+ library is on PromptVault Pro for £25.
           </p>
         </section>
 
@@ -156,7 +156,7 @@ export default function Home() {
             {currentPrompt.proOnly && (
               <div className="mt-6 p-4 rounded-lg bg-gradient-to-r from-indigo-500/10 to-purple-500/10 border border-indigo-500/20">
                 <p className="text-sm">
-                  This prompt is part of the <strong>full PromptVault library</strong> — 100+ production-tested prompts for £19.
+                  This prompt is part of the <strong>full PromptVault library</strong> — 77+ production-tested prompts for £25.
                 </p>
                 <a
                   href="/upgrade"
@@ -172,16 +172,16 @@ export default function Home() {
         {/* CTA footer */}
         {!currentPrompt && (
           <section className="mt-12 p-6 rounded-xl bg-gradient-to-br from-indigo-500/10 to-purple-500/10 border border-indigo-500/20">
-            <h3 className="text-xl font-semibold">Want the full 100+ library?</h3>
+            <h3 className="text-xl font-semibold">Want the full 77+ library?</h3>
             <p className="text-zinc-400 mt-1 text-sm">
-              Get every prompt — including 60+ Pro prompts — plus the "build-your-own" system prompt, in one file.
+              Get every prompt — including 40+ Pro prompts — plus the "build-your-own" system prompt, in one file.
             </p>
             <div className="mt-4 flex items-center gap-3">
               <a
                 href="/upgrade"
                 className="px-5 py-2.5 rounded-md bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-medium hover:opacity-90"
               >
-                Get PromptVault · £19
+                Get PromptVault · £25
               </a>
               <span className="text-xs text-zinc-500">One-time payment. Lifetime updates.</span>
             </div>
