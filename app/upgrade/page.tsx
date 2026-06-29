@@ -1,3 +1,4 @@
+// Updated checkout link – removed legacy &body param
 import Link from "next/link";
 
 export const metadata = { title: "PromptVault Pro — 50 Battle-Tested Workflows" };
@@ -34,7 +35,7 @@ export default function Upgrade() {
           </div>
           <p className="mt-2 text-slate-400 text-sm line-through">£40 launch price for first 100 buyers</p>
           <a
-            href="https://buy.stripe.com/9B63cv585gg2e489sM9fW03&body=Hi%20Alex%2C%20I%20want%20PromptVault%20Pro.%20Sending%20%C2%A325%20via%20PayPal%20to%20alex.promptvault%40gmail.com.%20Send%20me%20the%20pack."
+            href="https://buy.stripe.com/9B63cv585gg2e489sM9fW03"
             className="mt-6 block w-full text-center bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-lg py-4 rounded-xl transition"
           >
             Buy PromptVault Pro — £25
@@ -75,7 +76,7 @@ export default function Upgrade() {
 
         <section className="mt-16 text-center">
           <a
-            href="https://buy.stripe.com/9B63cv585gg2e489sM9fW03&body=Hi%20Alex%2C%20I%20want%20PromptVault%20Pro.%20Sending%20%C2%A325%20via%20PayPal%20to%20alex.promptvault%40gmail.com.%20Send%20me%20the%20pack."
+            href="https://buy.stripe.com/9B63cv585gg2e489sM9fW03"
             className="inline-block bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-lg px-10 py-4 rounded-xl transition"
           >
             Get the Pro Pack — $24 (£19)
