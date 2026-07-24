@@ -1,14 +1,14 @@
 // Updated checkout link – removed legacy &body param
 import Link from "next/link";
 
-export const metadata = { title: "PromptVault Pro — 77 Battle-Tested Workflows" };
+export const metadata = { title: "Nuvora Pro — 77 Battle-Tested Workflows" };
 
 export default function Upgrade() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-slate-950 via-slate-900 to-slate-950 text-white">
       <div className="max-w-3xl mx-auto px-6 py-16">
         <Link href="/" className="text-slate-400 hover:text-white text-sm">
-          ← PromptVault
+          ← Nuvora
         </Link>
 
         <div className="mt-8 inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/20 border border-amber-500/40 text-amber-300 text-xs font-semibold uppercase tracking-wider">
@@ -38,7 +38,7 @@ export default function Upgrade() {
             href="https://buy.stripe.com/9B63cv585gg2e489sM9fW03"
             className="mt-6 block w-full text-center bg-amber-500 hover:bg-amber-400 text-slate-950 font-bold text-lg py-4 rounded-xl transition"
           >
-            Buy PromptVault Pro — £25
+            Buy Nuvora Pro — £25
           </a>
           <p className="mt-3 text-center text-xs text-slate-500">
             PayPal to alex.promptvault@gmail.com · Pack emailed within 1 hour

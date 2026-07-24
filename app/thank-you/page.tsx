@@ -1,4 +1,4 @@
-export const metadata = { title: "Thanks — PromptVault Pro Pack" };
+export const metadata = { title: "Thanks — Nuvora Pro Pack" };
 
 export default function ThankYou() {
   return (
@@ -7,10 +7,10 @@ export default function ThankYou() {
         <div className="text-7xl mb-6">🎉</div>
         <h1 className="text-4xl md:text-5xl font-black mb-4">You&apos;re in.</h1>
         <p className="text-xl text-slate-300 mb-6">
-          Your PromptVault Pro Pack is ready.
+          Your Nuvora Pro Pack is ready.
         </p>
         <a
-          href="https://zo.pub/blackbox/promptvault-pro"
+          href="https://zo.pub/blackbox/nuvora-pro"
           className="inline-block bg-amber-500 hover:bg-amber-400 text-black font-bold text-lg px-8 py-4 rounded-xl transition transform hover:scale-105 mb-8"
         >
           ↓ Download Pro Pack (70 Prompts)

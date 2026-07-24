@@ -1,5 +1,5 @@
 {
-  "name": "promptvault",
+  "name": "nuvora",
   "framework": "nextjs-app-router",
   "buildCommand": "bun run build",
   "devCommand": "bun run dev",

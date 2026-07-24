@@ -1,7 +1,7 @@
-# PromptVault — AI Workflows That Ship
+# Nuvora — AI Workflows That Ship
 
 **Owner:** Alex Fisher
-**Email:** alex.promptvault@gmail.com
+**Email:** alex.nuvora@gmail.com
 **Mission:** Ship a working AI tool + paid library in 7 days, £0 budget, target £1000.
 
 ## Day 1 — Build

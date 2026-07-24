@@ -44,7 +44,7 @@ export default function Home() {
           <div className="flex items-center gap-3">
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center font-bold text-white">P</div>
             <div>
-              <h1 className="text-lg font-semibold">PromptVault</h1>
+              <h1 className="text-lg font-semibold">Nuvora</h1>
               <p className="text-xs text-zinc-500">AI workflows that ship</p>
             </div>
           </div>
@@ -61,7 +61,7 @@ export default function Home() {
             Tested prompts for <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-purple-400">real work</span>.
           </h2>
           <p className="mt-3 text-zinc-400 max-w-2xl">
-            Each prompt is production-tested and copy-paste ready. Browse by role, click any prompt, paste into ChatGPT or Claude. Free preview below — the full 77+ library is on PromptVault Pro for £25.
+            Each prompt is production-tested and copy-paste ready. Browse by role, click any prompt, paste into ChatGPT or Claude. Free preview below — the full 77+ library is on Nuvora Pro for £25.
           </p>
         </section>
 
@@ -156,7 +156,7 @@ export default function Home() {
             {currentPrompt.proOnly && (
               <div className="mt-6 p-4 rounded-lg bg-gradient-to-r from-indigo-500/10 to-purple-500/10 border border-indigo-500/20">
                 <p className="text-sm">
-                  This prompt is part of the <strong>full PromptVault library</strong> — 77+ production-tested prompts for £25.
+                  This prompt is part of the <strong>full Nuvora library</strong> — 77+ production-tested prompts for £25.
                 </p>
                 <a
                   href="/upgrade"
@@ -181,7 +181,7 @@ export default function Home() {
                 href="/upgrade"
                 className="px-5 py-2.5 rounded-md bg-gradient-to-r from-indigo-500 to-purple-600 text-white font-medium hover:opacity-90"
               >
-                Get PromptVault · £25
+                Get Nuvora · £25
               </a>
               <span className="text-xs text-zinc-500">One-time payment. Lifetime updates.</span>
             </div>
@@ -190,7 +190,7 @@ export default function Home() {
       </div>
 
       <footer className="border-t border-zinc-800 mt-12 py-6 text-center text-xs text-zinc-500">
-        Built by Alex Fisher · © 2026 PromptVault
+        Built by Alex Fisher · © 2026 Nuvora
       </footer>
     </main>
   );
